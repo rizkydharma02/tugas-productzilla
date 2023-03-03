@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productzilla</title>
+  </head>
+  <body>
+    <h1>Buat Account Baru!</h1>
+    <h3>Sign Up Form</h3>
+    <form action="./welcome.html">
+      <label for="">Nama :</label><br /><br />
+      <input type="text" placeholder="nama" required /><br /><br />
+      <label for="">Email</label><br /><br />
+      <input type="email" placeholder="email" required /><br /><br />
+      <label for="">Password</label><br /><br />
+      <input type="password" placeholder="password" required /><br /><br /><br />
+      <font size="4">Pilihan Bootcamp</font><br /><br />
+      <input type="radio" name="pilihan" />Frontend <br />
+      <input type="radio" name="pilihan" />Backend <br />
+      <input type="radio" name="pilihan" />UIUX <br />
+      <input type="radio" name="pilihan" />Digital Marketing <br /><br />
+      <font size="4">Nationality</font><br /><br />
+      <select name="nationality" id="nationality">
+        <option value="indonesia">Indonesia</option>
+        <option value="inggris">Inggris</option>
+      </select>
+      <br />
+      <br />
+      <font size="4">Language</font><br /><br />
+      <input type="checkbox" name="indonesia" id="indonesia" />Bahasa Indonesia <br />
+      <input type="checkbox" name="inggris" id="inggris" />Bahasa inggris <br />
+      <input type="checkbox" name="lain" id="lain" />Other <br /><br /><br />
+      <font size="4">Bio</font><br /><br />
+      <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Isi Bio Kamu Ya!"></textarea><br />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>

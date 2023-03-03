@@ -1,0 +1,40 @@
+body {
+  background: url('../img/pattern.jpg');
+  position: relative;
+}
+
+header {
+  background-color: white;
+}
+
+nav {
+  text-align: right;
+  position: relative;
+  right: 20px;
+  bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  border-bottom: 2px solid black;
+}
+
+section {
+  display: block;
+  margin: 5%;
+  background-color: white;
+  padding: 10px;
+}
+
+footer {
+  margin-top: auto;
+  display: block;
+  padding-top: 10px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
