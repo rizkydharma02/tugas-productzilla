@@ -1,0 +1,86 @@
+body {
+  background: url('../img/background.jpg');
+}
+
+.showcase {
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+}
+
+.showcase-top {
+  display: inline;
+  margin-right: 25px;
+}
+
+.showcase-content {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 35pt;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 19pt;
+  font-weight: lighter;
+  margin-bottom: 45px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 2px;
+}
+
+.btn-rounded {
+  float: right;
+  padding: 7px 20px;
+  margin-right: 10px;
+  width: 50px;
+  height: 20px;
+}
+
+.btn-xl {
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.btn-rounded:hover {
+  cursor: pointer;
+  height: 20px;
+  width: 50px;
+  background-color: #75100c;
+  animation: zoom-in 1s;
+}
+
+.btn-xl:hover {
+  cursor: pointer;
+  background-color: #75100c;
+  width: 50px;
+  height: 50px;
+}
+
+img {
+  position: fixed;
+  width: 120px;
+  height: 40px;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
